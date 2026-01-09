@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Users\\\\KAMISHR\\\\Documents\\\\temp-personal\\\\portfolio-web\")",
+      "Bash(git -C \"C:\\\\Users\\\\KAMISHR\\\\Documents\\\\temp-personal\\\\portfolio-web\" status)",
+      "Bash(git -C \"C:\\\\Users\\\\KAMISHR\\\\Documents\\\\temp-personal\\\\portfolio-web\" log --oneline -10)",
+      "Bash(test:*)",
+      "Bash(cat:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout 5 tail:*)"
+    ]
+  }
+}

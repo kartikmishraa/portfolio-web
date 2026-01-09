@@ -20,7 +20,7 @@ export const Experience = () => {
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             {/* Timeline Line */}
-            <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-primary-200 dark:bg-primary-800 transform md:-translate-x-1/2" />
+            <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-primary-200 dark:bg-primary-800 transform md:-translate-x-1/2 z-0" />
 
             {/* Experience Items */}
             <div className="space-y-12">
@@ -31,7 +31,7 @@ export const Experience = () => {
                     <div className="absolute left-8 md:left-1/2 w-4 h-4 bg-primary-600 dark:bg-primary-400 rounded-full transform -translate-x-1/2 ring-4 ring-white dark:ring-gray-900 z-10" />
 
                     {/* Content */}
-                    <div className={`flex-1 ml-16 md:ml-0 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
+                    <div className={`flex-1 ml-16 md:ml-0 relative z-20 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
                       <Card>
                         <div className="flex items-start gap-3 mb-4">
                           <div className="p-2 bg-primary-100 dark:bg-primary-900 rounded-lg">

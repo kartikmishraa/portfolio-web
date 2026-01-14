@@ -9,7 +9,7 @@ export const Certificates = () => {
   const { certificates } = portfolioConfig;
 
   return (
-    <section id="certificates" className="py-20 bg-white dark:bg-gray-900">
+    <section id="certificates" className="py-20 bg-white dark:bg-primary-900">
       <div className="container mx-auto px-4">
         <ScrollReveal>
           <SectionTitle
@@ -41,7 +41,7 @@ export const Certificates = () => {
                     {cert.description}
                   </p>
 
-                  <div className="flex items-center gap-4 text-sm text-gray-600 dark:text-gray-400 mb-4">
+                  <div className="flex items-center gap-4 text-sm text-gray-600 dark:text-primary-400 mb-4">
                     <div className="flex items-center gap-1">
                       <Calendar className="w-4 h-4" />
                       {cert.date}

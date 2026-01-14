@@ -8,7 +8,8 @@ export const Experience = () => {
   const { experience } = portfolioConfig;
 
   return (
-    <section id="experience" className="py-20 bg-white dark:bg-gray-900">
+    // <section id="experience" className="py-20 bg-white dark:bg-gray-900">
+    <section id="experience" className="py-20 bg-white dark:bg-primary-900">
       <div className="container mx-auto px-4">
         <ScrollReveal>
           <SectionTitle
@@ -47,7 +48,8 @@ export const Experience = () => {
                           </div>
                         </div>
 
-                        <div className="flex flex-wrap gap-4 text-sm text-gray-600 dark:text-gray-400 mb-4">
+                        {/* <div className="flex flex-wrap gap-4 text-sm text-gray-600 dark:text-gray-400 mb-4"> */}
+                        <div className="flex flex-wrap gap-4 text-sm text-gray-600 dark:text-primary-400 mb-4">
                           <div className="flex items-center gap-1">
                             <Calendar className="w-4 h-4" />
                             {exp.duration}
@@ -74,7 +76,8 @@ export const Experience = () => {
                           {exp.technologies.map((tech) => (
                             <span
                               key={tech}
-                              className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm"
+                              // className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm"
+                              className="px-3 py-1 bg-gray-100 dark:bg-primary-900 text-gray-700 dark:text-primary-300 rounded-full text-sm"
                             >
                               {tech}
                             </span>

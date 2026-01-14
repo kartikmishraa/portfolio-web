@@ -43,7 +43,8 @@ export const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-primary-50 to-primary-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 pt-20"
+      // className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-primary-50 to-primary-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 pt-20"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-primary-50 to-primary-100 dark:from-primary-700 dark:via-primary-800 dark:to-primary-900 pt-20"
     >
       <div className="container mx-auto px-4 py-12">
         <motion.div
@@ -59,7 +60,9 @@ export const Hero = () => {
               variants={itemVariants}
             >
               Hi, I am{' '}
-              <span className="bg-gradient-to-r from-primary-600 to-primary-800 bg-clip-text text-transparent">
+              <span className="bg-primary-800 dark:bg-primary-400 bg-clip-text text-transparent">
+              {/* <span className="bg-gradient-to-r from-primary-600 to-primary-800 bg-clip-text text-transparent"> */}
+              {/* <span className="bg-gradient-to-r from-primary-400 to-primary-600 bg-clip-text text-transparent"> */}
                 {personal.name}
               </span>
             </motion.h1>
@@ -72,7 +75,7 @@ export const Hero = () => {
             </motion.h2>
 
             <motion.p
-              className="text-lg text-gray-600 dark:text-gray-400 max-w-xl"
+              className="text-lg text-gray-600 dark:text-primary-400 max-w-xl"
               variants={itemVariants}
             >
               {personal.tagLine}

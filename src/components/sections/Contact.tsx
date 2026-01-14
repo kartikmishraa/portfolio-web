@@ -99,7 +99,8 @@ export const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-800">
+    // <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-800">
+    <section id="contact" className="py-20 bg-gray-50 dark:bg-primary-800">
       <div className="container mx-auto px-4">
         <ScrollReveal>
           <SectionTitle
@@ -185,7 +186,8 @@ export const Contact = () => {
                     name="from_name"
                     value={formData.from_name}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all"
+                    // className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-2 border border-gray-300 dark:border-primary-600 rounded-lg bg-white dark:bg-primary-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all"
                     disabled={sending}
                   />
                   {formErrors.from_name && (
@@ -208,7 +210,8 @@ export const Contact = () => {
                     name="from_email"
                     value={formData.from_email}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all"
+                    // className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-2 border border-gray-300 dark:border-primary-600 rounded-lg bg-white dark:bg-primary-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all"
                     disabled={sending}
                   />
                   {formErrors.from_email && (
@@ -231,7 +234,8 @@ export const Contact = () => {
                     name="subject"
                     value={formData.subject}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all"
+                    // className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-2 border border-gray-300 dark:border-primary-600 rounded-lg bg-white dark:bg-primary-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all"
                     disabled={sending}
                   />
                   {formErrors.subject && (
@@ -254,7 +258,8 @@ export const Contact = () => {
                     rows={5}
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all resize-none"
+                    // className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all resize-none"
+                    className="w-full px-4 py-2 border border-gray-300 dark:border-primary-600 rounded-lg bg-white dark:bg-primary-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none transition-all resize-none"
                     disabled={sending}
                   />
                   {formErrors.message && (

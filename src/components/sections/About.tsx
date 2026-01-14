@@ -8,7 +8,8 @@ export const About = () => {
   const { personal, education } = portfolioConfig;
 
   return (
-    <section id="about" className="py-20 bg-white dark:bg-gray-900">
+    // <section id="about" className="py-20 bg-white dark:bg-gray-900">
+    <section id="about" className="py-20 bg-white dark:bg-primary-900">
       <div className="container mx-auto px-4">
         <ScrollReveal>
           <SectionTitle

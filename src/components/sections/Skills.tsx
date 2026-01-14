@@ -35,7 +35,7 @@ export const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 bg-gray-50 dark:bg-gray-800">
+    <section id="skills" className="py-20 bg-gray-50 dark:bg-primary-800">
       <div className="container mx-auto px-4">
         <ScrollReveal>
           <SectionTitle
@@ -62,7 +62,8 @@ export const Skills = () => {
                   {category.skills.map((skill) => (
                     <div
                       key={skill}
-                      className="px-3 py-2 bg-gray-100 dark:bg-gray-700 rounded-lg text-center text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-primary-100 dark:hover:bg-primary-900 hover:text-primary-700 dark:hover:text-primary-300 transition-colors duration-200"
+                      // className="px-3 py-2 bg-gray-100 dark:bg-gray-700 rounded-lg text-center text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-primary-100 dark:hover:bg-primary-900 hover:text-primary-700 dark:hover:text-primary-300 transition-colors duration-200"
+                      className="px-3 py-2 bg-gray-100 dark:bg-primary-700 rounded-lg text-center text-sm font-medium text-primary-700 dark:text-primary-300 hover:bg-primary-100 dark:hover:bg-primary-900 hover:text-primary-700 dark:hover:text-primary-300 transition-colors duration-200"
                     >
                       {skill}
                     </div>

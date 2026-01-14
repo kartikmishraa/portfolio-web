@@ -112,7 +112,7 @@ export const portfolioConfig: PortfolioConfig = {
       issuer: "Microsoft",
       description:
         "Azure Cloud Fundamentals - Comprehensive understanding of cloud concepts and Azure services",
-      date: "202",
+      date: "November 2024",
       credentialId: "8247CFDCA31DCBB", // Update with your actual credential ID
       link: "https://learn.microsoft.com/api/credentials/share/en-us/KartikMishra-1523/8247CFDCA31DCBB?sharingId=42B01F1F8F40123D", // Update with your credential link
     },
@@ -121,7 +121,7 @@ export const portfolioConfig: PortfolioConfig = {
       issuer: "Amazon Web Services",
       description:
         "Introduction to Cloud Computing - Understanding of AWS cloud infrastructure and core services",
-      date: "2023",
+      date: "March 2023",
       credentialId: "", // Update with your actual credential ID
       link: "", // Update with your credential link
     },
@@ -130,7 +130,7 @@ export const portfolioConfig: PortfolioConfig = {
       issuer: "University at Buffalo", // Update with actual issuer
       description:
         "Fundamentals of Blockchain Technology - Understanding of distributed ledger technology and cryptocurrency",
-      date: "2021",
+      date: "December 2021",
       credentialId: "69XGRGJJGF22", // Update with your actual credential ID
       link: "https://www.coursera.org/account/accomplishments/certificate/69XGRGJJGF22", // Update with your credential link
     },

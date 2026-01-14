@@ -12,25 +12,25 @@ export const Skills = () => {
       title: 'Languages',
       icon: Code,
       skills: skills.languages,
-      color: 'from-blue-500 to-blue-700',
+      color: 'from-primary-500 to-primary-700',
     },
     {
       title: 'Back-End',
       icon: Database,
       skills: skills.backend,
-      color: 'from-green-500 to-green-700',
+      color: 'from-primary-600 to-primary-800',
     },
     {
       title: 'Front-End',
       icon: Layout,
       skills: skills.frontend,
-      color: 'from-purple-500 to-purple-700',
+      color: 'from-primary-400 to-primary-600',
     },
     {
       title: 'Tools & Platforms',
       icon: Wrench,
       skills: skills.tools,
-      color: 'from-orange-500 to-orange-700',
+      color: 'from-primary-500 to-primary-900',
     },
   ];
 

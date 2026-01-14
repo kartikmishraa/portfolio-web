@@ -43,7 +43,7 @@ export const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-blue-50 to-primary-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 pt-20"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-primary-50 to-primary-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 pt-20"
     >
       <div className="container mx-auto px-4 py-12">
         <motion.div
@@ -75,7 +75,7 @@ export const Hero = () => {
               className="text-lg text-gray-600 dark:text-gray-400 max-w-xl"
               variants={itemVariants}
             >
-              {personal.summary}
+              {personal.tagLine}
             </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-wrap gap-4">

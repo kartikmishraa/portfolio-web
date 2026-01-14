@@ -4,6 +4,7 @@ export const portfolioConfig: PortfolioConfig = {
   personal: {
     name: "Kartik Mishra",
     role: "Full-Stack Developer",
+    tagLine: "Passionate about all things Tech",
     summary:
       "Full-stack developer with strong fundamentals and a bias for action. Experienced in Core Java, Spring Boot, and Angular. Fueled by curiosity and coffee.",
     email: "kartikm2219@gmail.com", // Update with your actual email
@@ -32,7 +33,7 @@ export const portfolioConfig: PortfolioConfig = {
   skills: {
     languages: ["Java", "C/C++", "JavaScript/TypeScript", "HTML/CSS"],
     backend: ["Spring Boot", "Core Java", "Node.js", "MongoDB"],
-    frontend: ["Angular"],
+    frontend: ["Angular", "React"],
     tools: [
       "Claude",
       "Gen AI",
@@ -82,7 +83,7 @@ export const portfolioConfig: PortfolioConfig = {
       fullDescription:
         "Full-featured communication application built with Java Spring Boot backend, Angular frontend, and MongoDB database. Includes real-time messaging, user authentication, and responsive design.",
       technologies: ["Java Spring Boot", "Angular", "MongoDB", "WebSocket"],
-      github: "https://github.com/kartikmishra/ping", // Update with your actual GitHub link
+      github: "https://github.com/kartikmishraa/ping-code", // Update with your actual GitHub link
       demo: "", // Optional: Add demo link if available
       date: "December 2023",
     },
@@ -99,7 +100,7 @@ export const portfolioConfig: PortfolioConfig = {
         "Web3.js",
         "Ethereum",
       ],
-      github: "https://github.com/kartikmishra/nft-warranty", // Update with your actual GitHub link
+      github: "https://github.com/kartikmishraa/NFT-Warranty-DApp", // Update with your actual GitHub link
       demo: "", // Optional: Add demo link if available
       date: "December 2022",
     },
@@ -111,9 +112,9 @@ export const portfolioConfig: PortfolioConfig = {
       issuer: "Microsoft",
       description:
         "Azure Cloud Fundamentals - Comprehensive understanding of cloud concepts and Azure services",
-      date: "2023",
-      credentialId: "XXXX-XXXX-XXXX", // Update with your actual credential ID
-      link: "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/", // Update with your credential link
+      date: "202",
+      credentialId: "8247CFDCA31DCBB", // Update with your actual credential ID
+      link: "https://learn.microsoft.com/api/credentials/share/en-us/KartikMishra-1523/8247CFDCA31DCBB?sharingId=42B01F1F8F40123D", // Update with your credential link
     },
     {
       name: "AWS Introduction to Cloud",
@@ -121,17 +122,17 @@ export const portfolioConfig: PortfolioConfig = {
       description:
         "Introduction to Cloud Computing - Understanding of AWS cloud infrastructure and core services",
       date: "2023",
-      credentialId: "XXXX-XXXX-XXXX", // Update with your actual credential ID
+      credentialId: "", // Update with your actual credential ID
       link: "", // Update with your credential link
     },
     {
       name: "Blockchain Basics",
-      issuer: "Coursera/edX", // Update with actual issuer
+      issuer: "University at Buffalo", // Update with actual issuer
       description:
         "Fundamentals of Blockchain Technology - Understanding of distributed ledger technology and cryptocurrency",
-      date: "2022",
-      credentialId: "XXXX-XXXX-XXXX", // Update with your actual credential ID
-      link: "", // Update with your credential link
+      date: "2021",
+      credentialId: "69XGRGJJGF22", // Update with your actual credential ID
+      link: "https://www.coursera.org/account/accomplishments/certificate/69XGRGJJGF22", // Update with your credential link
     },
   ],
 };

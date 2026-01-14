@@ -9,6 +9,7 @@ export interface EmailData {
   from_email: string;
   subject: string;
   message: string;
+  [key: string]: string;
 }
 
 export const sendEmail = async (data: EmailData): Promise<{ success: boolean; error?: string }> => {

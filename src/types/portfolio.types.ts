@@ -1,6 +1,7 @@
 export interface PersonalInfo {
   name: string;
   role: string;
+  tagLine: string;
   summary: string;
   email: string;
   phone?: string;
@@ -37,7 +38,7 @@ export interface Experience {
   role: string;
   location: string;
   duration: string;
-  type: 'Full-time' | 'Internship' | 'Contract' | 'Part-time';
+  type: "Full-time" | "Internship" | "Contract" | "Part-time";
   description: string[];
   technologies: string[];
 }

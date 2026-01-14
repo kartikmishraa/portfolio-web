@@ -9,17 +9,17 @@ export default {
     extend: {
       colors: {
         primary: {
-          50: '#eff6ff',
-          100: '#dbeafe',
-          200: '#bfdbfe',
-          300: '#93c5fd',
-          400: '#60a5fa',
-          500: '#3b82f6',
-          600: '#2563eb',
-          700: '#1d4ed8',
-          800: '#1e40af',
-          900: '#1e3a8a',
-          950: '#172554',
+          50: '#f7faf3',   // Lightest tint for backgrounds
+          100: '#ecf39e',  // Your lightest color - for subtle highlights
+          200: '#d9e87a',  // Lighter tint between 100 and 300
+          300: '#c5dd56',  // Tint leading to your mid-light color
+          400: '#90a955',  // Your mid-light green
+          500: '#4f772d',  // Your core mid-green (primary action color)
+          600: '#31572c',  // Your darker green
+          700: '#2a4924',  // Darker tint for hover states
+          800: '#1f361a',  // Even darker for pressed states
+          900: '#132a13',  // Your darkest color
+          950: '#0d1f0d',  // Deepest shade for dark mode backgrounds
         },
       },
       fontFamily: {

@@ -9,7 +9,7 @@ import { portfolioConfig } from '../../data/portfolio.config';
 
 export const Contact = () => {
   const { personal } = portfolioConfig;
-  const { sending, success, error, sendEmailMessage, resetState } = useEmailJS();
+  const { sending, success, error, sendEmailMessage } = useEmailJS();
 
   const [formData, setFormData] = useState({
     from_name: '',

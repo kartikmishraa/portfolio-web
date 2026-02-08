@@ -3,10 +3,12 @@ import { PortfolioConfig } from "../types/portfolio.types";
 export const portfolioConfig: PortfolioConfig = {
   personal: {
     name: "Kartik Mishra",
-    role: "Full-Stack Developer",
-    tagLine: "Passionate about all things Tech",
+    role: "Software Engineer",
+    tagLine: "Passionate about Technology, AI and a fresh brew",
+    // summary:
+    // "Full-stack developer with strong fundamentals and a bias for action. Experienced in Core Java, Spring Boot, and Angular. Fueled by curiosity and coffee.",
     summary:
-      "Full-stack developer with strong fundamentals and a bias for action. Experienced in Core Java, Spring Boot, and Angular. Fueled by curiosity and coffee.",
+      "Full-stack developer having experience designing and building platforms that scale. Tech stack includes Java, Python, Node and Angular.",
     email: "kartikm2219@gmail.com", // Update with your actual email
     phone: "+91-9643834016", // Update with your actual phone
     location: "Hyderabad, India",
@@ -31,8 +33,14 @@ export const portfolioConfig: PortfolioConfig = {
   ],
 
   skills: {
-    languages: ["Java", "C/C++", "JavaScript/TypeScript", "HTML/CSS"],
-    backend: ["Spring Boot", "Core Java", "Node.js", "MongoDB"],
+    languages: ["Java", "Python", "JavaScript/TypeScript", "HTML/CSS"],
+    backend: [
+      "Spring Boot",
+      "FastAPI",
+      "Model Context Protocol",
+      "Node.js",
+      "MongoDB",
+    ],
     frontend: ["Angular", "React"],
     tools: [
       "Claude",
@@ -53,12 +61,20 @@ export const portfolioConfig: PortfolioConfig = {
       duration: "June 2024 - Present",
       type: "Full-time",
       description: [
-        "Developing and maintaining enterprise-level applications using Java Spring Boot and Angular",
+        "Developing and maintaining enterprise-level platforms using Java Spring Boot and Angular",
+        "Practising and implementing SRE fundamentals enabling organization wide observality",
         "Collaborating with cross-functional teams to deliver high-quality software solutions",
         "Implementing best practices for code quality, testing, and deployment",
         "Working with microservices architecture and cloud technologies",
       ],
-      technologies: ["Java", "Spring Boot", "Angular", "Microservices"],
+      technologies: [
+        "Java",
+        "Spring Boot",
+        "Python",
+        "Automation",
+        "Angular",
+        "Microservices",
+      ],
     },
     {
       company: "Chubb",
@@ -72,7 +88,7 @@ export const portfolioConfig: PortfolioConfig = {
         "Worked with senior developers on critical features and bug fixes",
         "Participated in code reviews and agile development processes",
       ],
-      technologies: ["Java", "Spring Boot", "Angular"],
+      technologies: ["Core Java", "Angular"],
     },
   ],
 
@@ -133,6 +149,15 @@ export const portfolioConfig: PortfolioConfig = {
       date: "December 2021",
       credentialId: "69XGRGJJGF22", // Update with your actual credential ID
       link: "https://www.coursera.org/account/accomplishments/certificate/69XGRGJJGF22", // Update with your credential link
+    },
+    {
+      name: "SRE Fundamentals",
+      issuer: "DevOps Institute", // Update with actual issuer
+      description:
+        " deep dive into the core principles and practices of SRE, equipping you with the tools to build reliable systems and improve operational efficiency",
+      date: "January 2026",
+      // credentialId: "", // Update with your actual credential ID
+      // link: "https://www.coursera.org/account/accomplishments/certificate/69XGRGJJGF22", // Update with your credential link
     },
   ],
 };

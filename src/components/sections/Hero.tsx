@@ -78,7 +78,7 @@ export const Hero = () => {
               className="text-lg text-gray-600 dark:text-primary-400 max-w-xl"
               variants={itemVariants}
             >
-              {personal.tagLine}
+              {personal.tagLine} &#x2615; {/* Coffee Symbol */}
             </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-wrap gap-4">
